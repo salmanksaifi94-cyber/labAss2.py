@@ -1,0 +1,34 @@
+=== Dynamic Array ===
+[0]
+[0, 1]
+Resizing from 2 to 4
+[0, 1, 2]
+[0, 1, 2, 3]
+Resizing from 4 to 8
+[0, 1, 2, 3, 4]
+...
+Pop: 9
+Pop: 8
+Pop: 7
+
+=== Singly Linked List ===
+1 -> 2 -> 3 -> 4 -> 5 -> None
+1 -> 2 -> 4 -> 5 -> None
+
+=== Doubly Linked List ===
+1 <-> 2 <-> 5 <-> 3 <-> None
+1 <-> 5 <-> 3 <-> None
+
+=== Stack ===
+Pop: 20
+Peek: 10
+
+=== Queue ===
+Dequeue: 1
+Front: 2
+
+=== Parentheses Checker ===
+([]) => True
+([)] => False
+((( => False
+ => True
